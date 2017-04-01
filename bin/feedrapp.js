@@ -6,7 +6,7 @@ require('babel/register');
 
 var Server = require('../src/server');
 var server = new Server();
-var port   = process.env.PORT || 8080;
+var port   = process.env.PORT || 8282;
 
 server.listen(port, '0.0.0.0', function () {
   var address = this.address();
